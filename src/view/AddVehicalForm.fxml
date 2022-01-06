@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pic1" prefHeight="653.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddVehicalFormController">
+   <children>
+      <Text fx:id="txt1" layoutX="104.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehical Number" />
+      <Text fx:id="txt2" layoutX="104.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehical Type" />
+      <Text fx:id="txt3" layoutX="107.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum Weight" />
+      <Text fx:id="txt4" layoutX="107.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Of Passengers" />
+      <TextField fx:id="txtVehivalNumber" layoutX="303.0" layoutY="104.0" />
+      <TextField fx:id="txtNoOfPassengers" layoutX="303.0" layoutY="392.0" />
+      <TextField fx:id="txtMaximumWeight" layoutX="303.0" layoutY="301.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="cmbtVehicalType" layoutX="303.0" layoutY="197.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button fx:id="btnAddVehical" layoutX="502.0" layoutY="579.0" mnemonicParsing="false" onAction="#AddVehical" style="-fx-background-color: #95907f;" text="Add Vehical" />
+   </children>
+</AnchorPane>

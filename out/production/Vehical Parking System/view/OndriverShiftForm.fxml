@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="pic1" prefHeight="653.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OndriverShiftFormController">
+   <children>
+      <TableView fx:id="tblOnDriverShift" layoutX="23.0" layoutY="17.0" prefHeight="620.0" prefWidth="607.0">
+        <columns>
+          <TableColumn fx:id="colVehicalNumber" prefWidth="134.0" text="Vehical Number" />
+          <TableColumn fx:id="colVehicalType" prefWidth="153.0" text="Vehical Type" />
+            <TableColumn fx:id="colDriverName" prefWidth="168.0" text="Driver Name" />
+            <TableColumn fx:id="colLeftTime" minWidth="0.0" prefWidth="177.0" text="Left Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
